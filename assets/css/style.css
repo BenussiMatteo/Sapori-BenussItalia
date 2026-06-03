@@ -296,7 +296,7 @@ body {
 
   .sidebar1 {
     position: static;
-    padding: 10px;
+    padding: 6px;
     border-radius: 8px;
   }
 
@@ -304,7 +304,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
   }
 
   .cardcatalogo {
@@ -349,13 +349,18 @@ body {
 
   .container {
     padding: 8px;
-    gap: 8px;
+    gap: 6px;
+  }
+
+  .sidebar1 {
+    padding: 4px;
   }
 
   .catalogocontainer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    gap: 5px;
   }
 
   .cardcatalogo {

@@ -360,8 +360,8 @@ body {
 
   .cardcatalogo {
     max-width: none;
-    padding: 10px 6px;
-    font-size: 0.85rem;
+    padding: 6px 8px;
+    font-size: 0.8rem;
   }
 
   .main-content {
@@ -414,6 +414,11 @@ body {
 @media (max-width: 360px) {
   .navbar-title {
     font-size: 0.9rem;
+  }
+
+  .cardcatalogo {
+    padding: 5px 6px;
+    font-size: 0.78rem;
   }
 
   .card img {

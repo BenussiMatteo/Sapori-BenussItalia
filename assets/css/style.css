@@ -102,6 +102,7 @@ body {
 
 .cardcatalogo h3 {
   font-size: inherit;
+  line-height: inherit;
 }
 
 .cardcatalogo:hover {
@@ -296,7 +297,7 @@ body {
 
   .sidebar1 {
     position: static;
-    padding: 6px;
+    padding: 3px;
     border-radius: 8px;
   }
 
@@ -304,14 +305,15 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 6px;
+    gap: 4px;
   }
 
   .cardcatalogo {
     flex: 1 1 150px;
     max-width: 220px;
-    padding: 8px 12px;
-    font-size: 0.9rem;
+    padding: 3px 8px;
+    font-size: 0.85rem;
+    line-height: 1.1;
   }
 
   .main-content {
@@ -353,20 +355,21 @@ body {
   }
 
   .sidebar1 {
-    padding: 4px;
+    padding: 2px;
   }
 
   .catalogocontainer {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 5px;
+    gap: 3px;
   }
 
   .cardcatalogo {
     max-width: none;
-    padding: 6px 8px;
+    padding: 2px 6px;
     font-size: 0.8rem;
+    line-height: 1.08;
   }
 
   .main-content {
@@ -422,8 +425,9 @@ body {
   }
 
   .cardcatalogo {
-    padding: 5px 6px;
+    padding: 2px 5px;
     font-size: 0.78rem;
+    line-height: 1.05;
   }
 
   .card img {
